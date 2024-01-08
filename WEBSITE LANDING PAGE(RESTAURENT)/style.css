@@ -32,7 +32,6 @@ header a:hover{
     background-color: white;
     padding: 10px;
 }
-
 .carousel{
     height: 100vh;
     margin-top: -50px;
@@ -53,7 +52,7 @@ header a:hover{
 }
 .carousel .list .item .content{
     position: absolute;
-    top: 20%;
+    top: 10%;
     width: 1140px;
     max-width: 80%;
     left: 50%;
@@ -94,6 +93,12 @@ header a:hover{
     font-family: Poppins;
     font-weight: 500;
 }
+
+.carousel .list .item .buttons button:hover{
+    background-color: transparent;
+    border: 1px solid #eee;
+    color: #eee;
+}
 .carousel .list .item .buttons button:nth-child(2){
     background-color: transparent;
     border: 1px solid #fff;
@@ -121,6 +126,12 @@ header a:hover{
     object-fit: cover;
     border-radius: 20px;
 }
+.thumbnail .item img:hover{
+    box-shadow: #eee solid;
+    padding: 5px 5px 5px ;
+    transition: all 0.5s;
+
+}
 .thumbnail .item .content{
     color: #fff;
     position: absolute;
@@ -135,9 +146,6 @@ header a:hover{
     font-weight: 300;
 }
 
-.content .item .buttons button:hover{
-    background-color: transparent;
-}
 
 .arrows{
     position: absolute;
@@ -166,11 +174,9 @@ header a:hover{
     color: #000;
 }
 
-
 .carousel .list .item:nth-child(1){
     z-index: 1;
 }
-
 
 
 .carousel .list .item:nth-child(1) .content .author,
@@ -247,7 +253,6 @@ header a:hover{
 }
 
 
-
 .carousel .time{
     position: absolute;
     z-index: 1000;
@@ -268,7 +273,6 @@ header a:hover{
 }
 
 
-/* prev click */
 
 .carousel.prev .list .item:nth-child(2){
     z-index: 2;
